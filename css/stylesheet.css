@@ -1,0 +1,221 @@
+body{
+	background-color:lightgray;
+	padding:.5em 4em;
+}
+
+p b{
+	color:orange;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+p > i{
+	color:orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+	font-size:2.5em;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+	
+
+h1 {
+	font-family: Verdana, sans-serif;
+    font-size: 3em; 
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h1:nth-of-type(2){
+	color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+table {
+   width:60%;
+  border-collapse: collapse;
+  margin:0 auto;
+}
+
+#pos2 {
+	
+	float-left:1em;
+}
+
+.pos {
+	 float:left;
+	 margin-right:2em;
+}
+
+.opening {
+	font-size:135%;
+	font-family:futura,sans-serif;
+}
+
+
+
+.tableBod tr:nth-of-type(odd){
+	background-color:black;
+	color:white;
+
+}
+
+.tableBod tr:nth-of-type(even){
+	background-color:black;
+	color:white;
+
+}
+
+.tableBod tr:hover{
+	background-color:white;
+	color:black;
+}
+
+tfoot th{
+	background-color:black;
+	color:orange;
+}
+tfoot td{
+	background-color:black;
+	color:white;
+}
+
+tfoot td:hover{
+	background-color:white;
+	color:black;
+}
+
+caption {
+	display:table-caption;
+	text-align:left;
+	caption-side:bottom;
+}
+
+caption i {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+	thead{
+		background-color:white;
+	}
+	
+	thead th {
+		background-color:black;
+		color:orange;
+		font-style:bold;
+	}
+
+table, th, td {
+	font-family:avenir, sans-serif;
+  border: solid black 1px;
+  text-align:center;
+}
+
+tbody tr:hover {
+  cursor:pointer;
+  background-color: orange;
+  color:orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: darkgray;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: lightgray;
+}
+
+ul {
+ padding:0.5em;
+ background-color:lightgray;
+}
+
+ul li {
+ display:inline;
+ margin:0.01%;
+}
+
+ul li a:link, ul li a:visited {
+ text-decoration: none;
+ color: white;
+}
+
+ul li a:hover {
+ color:gray;
+ background-color:lightgray;
+}
+
+ul li a:active {
+ color: orange;
+ background-color:gray;
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ul li a{
+ display:inline-block;
+ background-color:#6C7B8B;
+ width:24%;
+ padding:0.5em 0;
+ text-align:center;
+ font-weight:bold;
+ font-size:90%;
+ font-family:Helvetica, sans-serif;
+}
+
+p a:link {
+	color:orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration:none;
+}
+
+p a:visited {
+	color:orange;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-decoration:none;
+}
+
+
+p a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+p a:active {
+	background-color:orange;
+	color:black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-decoration:none;
+}
+
+ol li:nth-of-type(-n + 3){
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ol li:nth-of-type(n + 4){
+	color:black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.spanner {
+	font-weight:bold;
+	color:orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+blockquote {
+	font-size:3em;
+	font-style:italic;
+}
+
+blockquote b {
+	text-transform:capitalize;
+	color:pink;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ol {
+	font-size:1.5em;
+}
+	
